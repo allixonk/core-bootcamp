@@ -1,0 +1,20 @@
+{
+    "name": "OA",
+    "description": "WOW",
+    "symbol": "OA",
+    "image": "https://i.imgur.com/HKnEvUe.png",
+    "attributes": [
+        {
+            "trait_type": "Hair",
+            "value": "Furry"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Green"
+        },
+        {
+            "trait_type": "Mouth",
+            "value": "Smile"
+        }
+    ]
+}

@@ -9,19 +9,14 @@ import hre from "hardhat";
 describe("SolidityDataTypes", function () {
   async function deploy() {
     const [account1] = await hre.ethers.getSigners();
-
-    const SolidityDataTypes = await hre.ethers.getContractFactory(
-      "SolidityDataTypes"
-    );
+    const SolidityDataTypes = await hre.ethers.getContractFactory("SolidityDataTypes");
     const ctcSolidityDataTypes = await SolidityDataTypes.deploy();
-
     return { ctcSolidityDataTypes, account1 };
   }
 
-  describe("Deployment", function () {
-    it("should call constructor", async function () {
+  describe("Deployment Success", function () {
+    it("Constructor Executed", async function () {
       const { ctcSolidityDataTypes } = await loadFixture(deploy);
-
       expect(ctcSolidityDataTypes).not.to.be.undefined;
     });
   });
