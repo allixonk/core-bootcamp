@@ -58,3 +58,4 @@ For change request, please clone and submit pull-request. Or e-mail at mark@theb
     02-hardhat: 0x7CE26fDde56f57D385C79504323528d376950E4a
     03-erc20: 0x92fceCcb6683187aC574EC6228A921447BC1eB8A
                 0xaB29aD6b8704AAA334e5d1f0f1543226e2F56311
+    04-erc271: 0x624eB61C47071bbac46f22679215D5273A4a6790
