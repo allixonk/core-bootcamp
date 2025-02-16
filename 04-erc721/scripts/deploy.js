@@ -7,7 +7,7 @@
 const hre = require("hardhat");
 
 async function main() {
-  const contract = await hre.ethers.deployContract("MyNFT");
+  const contract = await hre.ethers.deployContract("KALBO");
 
   await contract.waitForDeployment();
 

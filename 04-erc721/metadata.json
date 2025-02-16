@@ -1,12 +1,12 @@
 {
-    "name": "DINGDONG",
-    "description": "green peas sa dingdong",
-    "symbol": "DD",
-    "image": "https://i.imgur.com/RbbTO6u.jpeg",
+    "name": "KALBO",
+    "description": "kalbo <3",
+    "symbol": "KALBO",
+    "image": "https://i.imgur.com/fzKBVfw.png",
     "attributes": [
         {
             "trait_type": "Hair",
-            "value": "Furry"
+            "value": "None"
         },
         {
             "trait_type": "Eyes",
